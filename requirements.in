@@ -1,0 +1,19 @@
+
+isort
+black
+pycodestyle
+tqdm
+
+pandas
+numpy
+jupyter
+
+
+openai 
+aiofiles
+gradio 
+
+# donut-python # OCR FREE MODEL, not good with swedish (not fine tuned yet...)
+
+paddlepaddle-gpu
+paddleocr>=2.0.1 # Recommend to use version 2.0.1+
