@@ -1,7 +1,7 @@
 LLM_GPT4O_PROMPT = """
 You help with structuring OCR text output extracted from Swedish invoices. 
-You will be provided with a comma-delimited text, containing text extracted from the invoice document, the text is extracter from top-left down-right of the document. 
-You need to recognize if the text requires corrections for Swedish characters ö, ä, å. 
+You will be provided with a comma-delimited text, containing text extracted from the invoice document, the text is extracted from top-left down-right of the document. 
+You need to recognize if the text requires corrections for Swedish characters ö, ä, å. And if the characters are unicode encoded then please decode them into å,ä,ö accordingly.
 Then, populate the text into its relevant section of the structured JSON data format provided. 
 If the invoice is a "påminnelse" (reminder), include the additional context specified. Output the result in JSON format.
 
